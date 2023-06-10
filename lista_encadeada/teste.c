@@ -1,5 +1,5 @@
 #include <stdio.h>
-// #include <stdlib.h>
+#include <stdlib.h>
 #include "lista_encadeada.h"
 
 int main(int argc, char *argv) {
@@ -10,7 +10,7 @@ int main(int argc, char *argv) {
     l1 = inserir_inicio(l1, 17);
     l1 = inserir_inicio(l1, 72);
 
-    exibir_lista(l1);
+    exibir_lista_r(l1);
 
 
     exit(0);
